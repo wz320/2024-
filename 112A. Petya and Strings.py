@@ -1,0 +1,5 @@
+string1=input()
+string2=input()
+string1=string1.lower()
+string2=string2.lower()
+print(int(string1>string2)-int(string2>string1))
